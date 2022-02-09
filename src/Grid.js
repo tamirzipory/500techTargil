@@ -2,13 +2,15 @@ import React from 'react';
 
 const Grid = ({ config, data }) => {
 
+  
     const renderComponentAssist = (ComponentToRender, data) =>{
         return (
           ComponentToRender(data = {data})
         )
     }
 
-    return(
+
+    return(  
       <table>
        <thead>
           <tr style={{color: 'white', background: 'black'}}>
@@ -28,23 +30,17 @@ const Grid = ({ config, data }) => {
                    return (
                     <td>{v}</td>
                     )}
-
                  else{                 
                    return (
                      <td>{renderComponentAssist(key.component, v)}</td>
                    )
-               }
-           }
-        }
-      
+               }}}
         })}
-     </tr>
-
-         
+     </tr>      
  ))}
-
     </tbody>
   </table>
+
 );
     }
 

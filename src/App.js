@@ -12,7 +12,7 @@ const Trailer = ({ data }) => (
   </a>
 );
 
-/*I add additional component for the url because the table was small*/ 
+/*I added another component to display the url*/ 
 
 const PokemonUrl = ({ data }) => (
   <a href={data}
@@ -73,13 +73,6 @@ const pokemonConfig = [
 
 const App = () => (
   <div>
-
-  <div>
-    Tamir work<br />
-    email: tamir0202@gmail.com<br />
-    ID: 212784441 <br />
-    <a href="tel:+972502217771">tamir phone</a>
-  </div>
 
     <h2>Movies</h2>
 
