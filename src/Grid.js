@@ -2,7 +2,7 @@ import React from 'react';
 
 const Grid = ({ config, data }) => {
 
-  
+
     const renderComponentAssist = (ComponentToRender, data) =>{
         return (
           ComponentToRender(data = {data})

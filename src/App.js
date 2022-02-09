@@ -40,7 +40,7 @@ const moviesConfig = [
     field: 'imdbRating',
   },
   {
-    title: 'run',
+    title: 'time',
     field: 'Runtime'
   },
   {
